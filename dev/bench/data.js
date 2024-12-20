@@ -2,7 +2,7 @@ window.BENCHMARK_DATA = {
   "lastUpdate": 1734542744695,
   "repoUrl": "https://github.com/cmu-db/optd",
   "entries": {
-    "Rust Benchmark": [
+    "TPC-H Planning and Execution Benchmark": [
       {
         "commit": {
           "author": {
