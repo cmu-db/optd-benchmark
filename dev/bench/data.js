@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734542744695,
+  "lastUpdate": 1734723306213,
   "repoUrl": "https://github.com/cmu-db/optd",
   "entries": {
     "TPC-H Planning and Execution Benchmark": [
@@ -443,6 +443,510 @@ window.BENCHMARK_DATA = {
             "name": "tpch/q9/execution",
             "value": 1365006,
             "range": "± 151210",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "connor.tsui20@gmail.com",
+            "name": "Connor Tsui",
+            "username": "connortsui20"
+          },
+          "committer": {
+            "email": "connor.tsui20@gmail.com",
+            "name": "Connor Tsui",
+            "username": "connortsui20"
+          },
+          "distinct": true,
+          "id": "1a5261f4aa230a49e0077aa966a942700cb00571",
+          "message": "rename benchmark",
+          "timestamp": "2024-12-20T14:10:16-05:00",
+          "tree_id": "015320b6c157fbebb2c1189c09a0879625c70563",
+          "url": "https://github.com/cmu-db/optd/commit/1a5261f4aa230a49e0077aa966a942700cb00571"
+        },
+        "date": 1734722228138,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "tpch/q1/planning",
+            "value": 728815,
+            "range": "± 80107",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q10/planning",
+            "value": 61468335,
+            "range": "± 563723",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q11/planning",
+            "value": 3140045,
+            "range": "± 74786",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q12/planning",
+            "value": 976341,
+            "range": "± 13540",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q13/planning",
+            "value": 525012,
+            "range": "± 8725",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q14/planning",
+            "value": 909935,
+            "range": "± 15356",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q3/planning",
+            "value": 3319806,
+            "range": "± 23809",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q5/planning",
+            "value": 63884403,
+            "range": "± 575921",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q6/planning",
+            "value": 347590,
+            "range": "± 5661",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q7/planning",
+            "value": 65047212,
+            "range": "± 502355",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q8/planning",
+            "value": 73469410,
+            "range": "± 1073501",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q9/planning",
+            "value": 77664087,
+            "range": "± 550466",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q1/execution",
+            "value": 911136,
+            "range": "± 22288",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q10/execution",
+            "value": 903245,
+            "range": "± 57323",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q11/execution",
+            "value": 252562,
+            "range": "± 19994",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q12/execution",
+            "value": 353852,
+            "range": "± 28297",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q13/execution",
+            "value": 22475297,
+            "range": "± 71305",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q14/execution",
+            "value": 236173,
+            "range": "± 32421",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q3/execution",
+            "value": 554633,
+            "range": "± 22432",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q5/execution",
+            "value": 944161,
+            "range": "± 72937",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q6/execution",
+            "value": 176782,
+            "range": "± 10282",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q7/execution",
+            "value": 10323749,
+            "range": "± 641492",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q8/execution",
+            "value": 1174577,
+            "range": "± 48947",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q9/execution",
+            "value": 1339314,
+            "range": "± 60158",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "connor.tsui20@gmail.com",
+            "name": "Connor Tsui",
+            "username": "connortsui20"
+          },
+          "committer": {
+            "email": "connor.tsui20@gmail.com",
+            "name": "Connor Tsui",
+            "username": "connortsui20"
+          },
+          "distinct": true,
+          "id": "1a5261f4aa230a49e0077aa966a942700cb00571",
+          "message": "rename benchmark",
+          "timestamp": "2024-12-20T14:10:16-05:00",
+          "tree_id": "015320b6c157fbebb2c1189c09a0879625c70563",
+          "url": "https://github.com/cmu-db/optd/commit/1a5261f4aa230a49e0077aa966a942700cb00571"
+        },
+        "date": 1734722759348,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "tpch/q1/planning",
+            "value": 724257,
+            "range": "± 41312",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q10/planning",
+            "value": 61049861,
+            "range": "± 1092473",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q11/planning",
+            "value": 3154737,
+            "range": "± 82194",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q12/planning",
+            "value": 981150,
+            "range": "± 7047",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q13/planning",
+            "value": 521468,
+            "range": "± 5674",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q14/planning",
+            "value": 905145,
+            "range": "± 5804",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q3/planning",
+            "value": 3324377,
+            "range": "± 48602",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q5/planning",
+            "value": 62306773,
+            "range": "± 2713463",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q6/planning",
+            "value": 345520,
+            "range": "± 6532",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q7/planning",
+            "value": 64217319,
+            "range": "± 523024",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q8/planning",
+            "value": 71627795,
+            "range": "± 359087",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q9/planning",
+            "value": 76266218,
+            "range": "± 734976",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q1/execution",
+            "value": 828678,
+            "range": "± 6114",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q10/execution",
+            "value": 576519,
+            "range": "± 17565",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q11/execution",
+            "value": 189310,
+            "range": "± 3309",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q12/execution",
+            "value": 319032,
+            "range": "± 3904",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q13/execution",
+            "value": 22138120,
+            "range": "± 177424",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q14/execution",
+            "value": 195961,
+            "range": "± 3694",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q3/execution",
+            "value": 436342,
+            "range": "± 10537",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q5/execution",
+            "value": 597263,
+            "range": "± 11441",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q6/execution",
+            "value": 146161,
+            "range": "± 2551",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q7/execution",
+            "value": 12477721,
+            "range": "± 1382150",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q8/execution",
+            "value": 796530,
+            "range": "± 48244",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q9/execution",
+            "value": 922005,
+            "range": "± 12917",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "connor.tsui20@gmail.com",
+            "name": "Connor Tsui",
+            "username": "connortsui20"
+          },
+          "committer": {
+            "email": "connor.tsui20@gmail.com",
+            "name": "Connor Tsui",
+            "username": "connortsui20"
+          },
+          "distinct": true,
+          "id": "1a5261f4aa230a49e0077aa966a942700cb00571",
+          "message": "rename benchmark",
+          "timestamp": "2024-12-20T14:10:16-05:00",
+          "tree_id": "015320b6c157fbebb2c1189c09a0879625c70563",
+          "url": "https://github.com/cmu-db/optd/commit/1a5261f4aa230a49e0077aa966a942700cb00571"
+        },
+        "date": 1734723305745,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "tpch/q1/planning",
+            "value": 731545,
+            "range": "± 51189",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q10/planning",
+            "value": 60546845,
+            "range": "± 509965",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q11/planning",
+            "value": 3161853,
+            "range": "± 105726",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q12/planning",
+            "value": 983209,
+            "range": "± 5480",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q13/planning",
+            "value": 524891,
+            "range": "± 19974",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q14/planning",
+            "value": 907036,
+            "range": "± 25146",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q3/planning",
+            "value": 3329363,
+            "range": "± 14933",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q5/planning",
+            "value": 62255037,
+            "range": "± 2342760",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q6/planning",
+            "value": 348830,
+            "range": "± 2841",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q7/planning",
+            "value": 63489207,
+            "range": "± 393507",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q8/planning",
+            "value": 72177714,
+            "range": "± 470798",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q9/planning",
+            "value": 76141063,
+            "range": "± 591570",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q1/execution",
+            "value": 821836,
+            "range": "± 17976",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q10/execution",
+            "value": 821035,
+            "range": "± 107584",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q11/execution",
+            "value": 191346,
+            "range": "± 9632",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q12/execution",
+            "value": 324814,
+            "range": "± 16878",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q13/execution",
+            "value": 22846276,
+            "range": "± 346469",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q14/execution",
+            "value": 198977,
+            "range": "± 16446",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q3/execution",
+            "value": 441587,
+            "range": "± 11714",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q5/execution",
+            "value": 635960,
+            "range": "± 67359",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q6/execution",
+            "value": 147230,
+            "range": "± 4119",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q7/execution",
+            "value": 13916344,
+            "range": "± 2093729",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q8/execution",
+            "value": 839224,
+            "range": "± 55008",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "tpch/q9/execution",
+            "value": 988819,
+            "range": "± 68452",
             "unit": "ns/iter"
           }
         ]
